@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api_route
+          uri: http://localhost:8100
+          predicates:
+            - Path=/api/**
+  redis:
+    database: 4
+    host: localhost
+    password: 
+    port: 6379
+    connect-timeout: 50000
+server:
+  port: 8090
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: trace

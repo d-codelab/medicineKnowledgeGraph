@@ -1,0 +1,622 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "急性胃炎",
+          "cure_time": "约1-2周",
+          "department": "消化内科",
+          "cause": "饮食不当、感染等",
+          "possibility": "常见"
+        }
+      },
+      "end": {
+        "identity": 122726,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "胃痛"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "急性胃炎",
+              "cure_time": "约1-2周",
+              "department": "消化内科",
+              "cause": "饮食不当、感染等",
+              "possibility": "常见"
+            }
+          },
+          "relationship": {
+            "identity": 626263,
+            "start": 10,
+            "end": 122726,
+            "type": "has_symptom",
+            "properties": {
+              "name": "症状"
+            }
+          },
+          "end": {
+            "identity": 122726,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "胃痛"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 99,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肠易激综合征",
+          "cure_time": "长期管理",
+          "department": "消化内科",
+          "cause": "病因复杂，可能与饮食、生活习惯等有关",
+          "possibility": "较常见"
+        }
+      },
+      "end": {
+        "identity": 122727,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "高纤维食物"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 99,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肠易激综合征",
+              "cure_time": "长期管理",
+              "department": "消化内科",
+              "cause": "病因复杂，可能与饮食、生活习惯等有关",
+              "possibility": "较常见"
+            }
+          },
+          "relationship": {
+            "identity": 626264,
+            "start": 99,
+            "end": 122727,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "推荐食物"
+            }
+          },
+          "end": {
+            "identity": 122727,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "高纤维食物"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肠道感染",
+          "cure_time": "根据感染类型和严重程度而异",
+          "department": "消化内科",
+          "cause": "病原体感染，如细菌、病毒或寄生虫",
+          "possibility": "根据暴露风险而异"
+        }
+      },
+      "end": {
+        "identity": 122726,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "腹泻"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肠道感染",
+              "cure_time": "根据感染类型和严重程度而异",
+              "department": "消化内科",
+              "cause": "病原体感染，如细菌、病毒或寄生虫",
+              "possibility": "根据暴露风险而异"
+            }
+          },
+          "relationship": {
+            "identity": 626263,
+            "start": 0,
+            "end": 122726,
+            "type": "has_symptom",
+            "properties": {
+              "name": "症状"
+            }
+          },
+          "end": {
+            "identity": 122726,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "腹泻"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "胃溃疡",
+          "cure_time": "根据病情严重程度而异",
+          "department": "消化内科",
+          "cause": "胃酸分泌过多、幽门螺杆菌感染等",
+          "possibility": "根据个体情况而异"
+        }
+      },
+      "end": {
+        "identity": 122726,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "胃痛"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "胃溃疡",
+              "cure_time": "根据病情严重程度而异",
+              "department": "消化内科",
+              "cause": "胃酸分泌过多、幽门螺杆菌感染等",
+              "possibility": "根据个体情况而异"
+            }
+          },
+          "relationship": {
+            "identity": 626265,
+            "start": 0,
+            "end": 122726,
+            "type": "has_symptom",
+            "properties": {
+              "name": "症状"
+            }
+          },
+          "end": {
+            "identity": 122726,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "胃痛"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "反流性食管炎",
+          "cure_time": "根据病情严重程度而异",
+          "department": "消化内科",
+          "cause": "胃酸反流至食管",
+          "possibility": "根据个体情况而异"
+        }
+      },
+      "end": {
+        "identity": 122729,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "低脂食物"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "反流性食管炎",
+              "cure_time": "根据病情严重程度而异",
+              "department": "消化内科",
+              "cause": "胃酸反流至食管",
+              "possibility": "根据个体情况而异"
+            }
+          },
+          "relationship": {
+            "identity": 626266,
+            "start": 1,
+            "end": 122729,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "推荐食物"
+            }
+          },
+          "end": {
+            "identity": 122729,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "低脂食物"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "反流性食管炎",
+          "cure_time": "根据病情严重程度而异",
+          "department": "消化内科",
+          "cause": "胃酸反流至食管",
+          "possibility": "根据个体情况而异"
+        }
+      },
+      "end": {
+        "identity": 122700,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "消化内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "溃疡性结肠炎",
+              "cure_time": "根据病情严重程度而异",
+              "department": "消化内科",
+              "cause": "免疫因素、遗传因素等",
+              "possibility": "根据个体情况而异"
+            }
+          },
+          "relationship": {
+            "identity": 626210,
+            "start": 2,
+            "end": 122700,
+            "type": "department_is",
+            "properties": {
+              "name": "所属科室"
+            }
+          },
+          "end": {
+            "identity": 122700,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "消化内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肠道感染",
+          "cure_time": "根据感染类型和严重程度而异",
+          "department": "消化内科",
+          "cause": "病原体感染，如细菌、病毒或寄生虫",
+          "possibility": "根据暴露风险而异"
+        }
+      },
+      "end": {
+        "identity": 122700,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "消化内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肠道感染",
+              "cure_time": "根据感染类型和严重程度而异",
+              "department": "消化内科",
+              "cause": "病原体感染，如细菌、病毒或寄生虫",
+              "possibility": "根据暴露风险而异"
+            }
+          },
+          "relationship": {
+            "identity": 626210,
+            "start": 0,
+            "end": 122700,
+            "type": "department_is",
+            "properties": {
+              "name": "所属科室"
+            }
+          },
+          "end": {
+            "identity": 122700,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "消化内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 99,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肠易激综合征",
+          "cure_time": "长期管理",
+          "department": "消化内科",
+          "cause": "病因复杂，可能与饮食、生活习惯等有关",
+          "possibility": "较常见"
+        }
+      },
+      "end": {
+        "identity": 122700,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "消化内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 99,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肠易激综合征",
+              "cure_time": "长期管理",
+              "department": "消化内科",
+              "cause": "病因复杂，可能与饮食、生活习惯等有关",
+              "possibility": "较常见"
+            }
+          },
+          "relationship": {
+            "identity": 626210,
+            "start": 99,
+            "end": 122700,
+            "type": "department_is",
+            "properties": {
+              "name": "所属科室"
+            }
+          },
+          "end": {
+            "identity": 122700,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "消化内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "急性胃炎",
+          "cure_time": "约1-2周",
+          "department": "消化内科",
+          "cause": "饮食不当、感染等",
+          "possibility": "常见"
+        }
+      },
+      "end": {
+        "identity": 122700,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "消化内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "急性胃炎",
+              "cure_time": "约1-2周",
+              "department": "消化内科",
+              "cause": "饮食不当、感染等",
+              "possibility": "常见"
+            }
+          },
+          "relationship": {
+            "identity": 626210,
+            "start": 10,
+            "end": 122700,
+            "type": "department_is",
+            "properties": {
+              "name": "所属科室"
+            }
+          },
+          "end": {
+            "identity": 122700,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "消化内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "反流性食管炎",
+          "cure_time": "根据病情严重程度而异",
+          "department": "消化内科",
+          "cause": "胃酸反流至食管",
+          "possibility": "根据个体情况而异"
+        }
+      },
+      "end": {
+        "identity": 122700,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "消化内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "反流性食管炎",
+              "cure_time": "根据病情严重程度而异",
+              "department": "消化内科",
+              "cause": "胃酸反流至食管",
+              "possibility": "根据个体情况而异"
+            }
+          },
+          "relationship": {
+            "identity": 626266,
+            "start": 1,
+            "end": 122700,
+            "type": "department_is",
+            "properties": {
+              "name": "推荐食物"
+            }
+          },
+          "end": {
+            "identity": 122700,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "消化内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

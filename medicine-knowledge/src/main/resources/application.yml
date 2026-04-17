@@ -1,0 +1,86 @@
+spring:
+  config:
+    import: classpath:.env[.properties]
+  mail:
+    host: smtp.qq.com
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            trust: smtp.qq.com
+    default-encoding: UTF-8
+#  boot:
+#    admin:
+#      client:
+#        # 服务端 url
+#        url: http://localhost:8888
+  application:
+    name: medicine-knowledge
+  # 默认 dev 环境
+  profiles:
+    active: dev
+  # session 失效时间（分钟）
+  session:
+    timeout: 86400
+    store-type: redis
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PASSWORD:}
+    database: 4
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE}
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+  # 文件上传
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  address: 0.0.0.0
+  port: 8100
+  servlet:
+    context-path: /api
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值（默认为 1）
+      logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+      keyid: ${ALIYUN_OSS_KEYID}
+      keysecret: ${ALIYUN_OSS_KEYSECRET}
+      bucketname: ${ALIYUN_OSS_BUCKETNAME}
+knife4j:
+  enable: true
+  openapi:
+    title: "接口文档"
+    version: 1.0
+    group:
+      default:
+        api-rule: package
+        api-rule-resources:
+          - org.zuel.medicineknowledge.controller
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'

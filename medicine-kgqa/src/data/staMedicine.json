@@ -1,0 +1,406 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "呼吸内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 626262,
+            "start": 0,
+            "end": 122725,
+            "type": "department_is",
+            "properties": {
+              "name": "类型"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "呼吸内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "咳嗽"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 1,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "咳嗽"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 2,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "头晕"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 2,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 2,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "头晕"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 3,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "咽痛"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 3,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 3,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "咽痛"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 4,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "流涕"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 4,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 4,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "流涕"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 5,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "鼻塞"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 5,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 5,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "鼻塞"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "感冒",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "呼吸不畅"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "感冒"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 6,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "呼吸不畅"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

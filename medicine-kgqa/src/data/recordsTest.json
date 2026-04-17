@@ -1,0 +1,1242 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "呼吸内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 626262,
+            "start": 0,
+            "end": 122725,
+            "type": "department_is",
+            "properties": {
+              "name": "类型"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "呼吸内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120895,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "海参"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 582838,
+            "start": 0,
+            "end": 120895,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120895,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "海参"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120934,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "松子仁"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 553108,
+            "start": 0,
+            "end": 120934,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120934,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "松子仁"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120810,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "红枣"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 551319,
+            "start": 0,
+            "end": 120810,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120810,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "红枣"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120811,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "香菇蒸肉"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 544129,
+            "start": 0,
+            "end": 120811,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120811,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "香菇蒸肉"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120888,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "蔬香牛肉羹"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 536963,
+            "start": 0,
+            "end": 120888,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120888,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "蔬香牛肉羹"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120969,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "鸭肉"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 452313,
+            "start": 0,
+            "end": 120969,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120969,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "鸭肉"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120805,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "油菜"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 433083,
+            "start": 0,
+            "end": 120805,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120805,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "油菜"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120931,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "香菇小油菜"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 287699,
+            "start": 0,
+            "end": 120931,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120931,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "香菇小油菜"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120926,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "黑豆"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 215520,
+            "start": 0,
+            "end": 120926,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120926,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "黑豆"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120979,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "鸭肝"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 207691,
+            "start": 0,
+            "end": 120979,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120979,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "鸭肝"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 121034,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "薏仁"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 155265,
+            "start": 0,
+            "end": 121034,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 121034,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "薏仁"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120880,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "萝卜牛肉蒸饺"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 98740,
+            "start": 0,
+            "end": 120880,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120880,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "萝卜牛肉蒸饺"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120913,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "干腌菜"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 96972,
+            "start": 0,
+            "end": 120913,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120913,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "干腌菜"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120954,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "腰果"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 87265,
+            "start": 0,
+            "end": 120954,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120954,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "腰果"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "肺泡蛋白质沉积症",
+          "cure_time": "约3个月",
+          "department": "呼吸内科",
+          "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+          "possibility": "约40%"
+        }
+      },
+      "end": {
+        "identity": 120850,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "呼吸困难"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "肺泡蛋白质沉积症",
+              "cure_time": "约3个月",
+              "department": "呼吸内科",
+              "cause": "启动因素尚不明确，但基本上同意发病过程为脂质代谢障碍所致",
+              "possibility": "约40%"
+            }
+          },
+          "relationship": {
+            "identity": 22591,
+            "start": 0,
+            "end": 120850,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 120850,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "呼吸困难"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "喘息样支气管炎",
+          "cure_time": "6-12个月",
+          "department": "内科",
+          "cause": "过敏性质的、常与呼吸道感染有关的疾病",
+          "possibility": "95%"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "呼吸内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "喘息样支气管炎",
+              "cure_time": "6-12个月",
+              "department": "台州市黄岩春江苑1-1-1902室",
+              "cause": "过敏性质的、常与呼吸道感染有关的疾病",
+              "possibility": "95%"
+            }
+          },
+          "relationship": {
+            "identity": 700058,
+            "start": 1,
+            "end": 122725,
+            "type": "department_is",
+            "properties": {
+              "name": "类型"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "呼吸内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "喘息样支气管炎",
+          "cure_time": "6-12个月",
+          "department": "呼吸内科",
+          "cause": "过敏性质的、常与呼吸道感染有关的疾病",
+          "possibility": "95%"
+        }
+      },
+      "end": {
+        "identity": 120810,
+        "labels": [
+          "Food"
+        ],
+        "properties": {
+          "name": "红枣"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "喘息样支气管炎",
+              "cure_time": "6-12个月",
+              "department": "台州市黄岩春江苑1-1-1902室",
+              "cause": "过敏性质的、常与呼吸道感染有关的疾病",
+              "possibility": "95%"
+            }
+          },
+          "relationship": {
+            "identity": 336736,
+            "start": 1,
+            "end": 120810,
+            "type": "recommand_eat",
+            "properties": {
+              "name": "宜吃"
+            }
+          },
+          "end": {
+            "identity": 120810,
+            "labels": [
+              "Food"
+            ],
+            "properties": {
+              "name": "红枣"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "喘息样支气管炎",
+          "cure_time": "6-12个月",
+          "department": "台州市黄岩春江苑1-1-1902室",
+          "cause": "过敏性质的、常与呼吸道感染有关的疾病",
+          "possibility": "95%"
+        }
+      },
+      "end": {
+        "identity": 120861,
+        "labels": [
+          "Symptom"
+        ],
+        "properties": {
+          "name": "哮鸣音"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "喘息样支气管炎",
+              "cure_time": "6-12个月",
+              "department": "台州市黄岩春江苑1-1-1902室",
+              "cause": "过敏性质的、常与呼吸道感染有关的疾病",
+              "possibility": "95%"
+            }
+          },
+          "relationship": {
+            "identity": 5787,
+            "start": 1,
+            "end": 120861,
+            "type": "has_symptom",
+            "properties": {
+              "name": "出现"
+            }
+          },
+          "end": {
+            "identity": 120861,
+            "labels": [
+              "Symptom"
+            ],
+            "properties": {
+              "name": "哮鸣音"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "Disease"
+        ],
+        "properties": {
+          "name": "冬春季慢性咳",
+          "cure_time": "约1个月",
+          "department": "呼吸内科",
+          "cause": "空气流通不畅、病毒和细菌的传播、气候变化以及空气污染等",
+          "possibility": "约90%"
+        }
+      },
+      "end": {
+        "identity": 122725,
+        "labels": [
+          "Department"
+        ],
+        "properties": {
+          "name": "呼吸内科"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "Disease"
+            ],
+            "properties": {
+              "name": "冬春季慢性咳",
+              "cure_time": "约1个月",
+              "department": "呼吸内科",
+              "cause": "空气流通不畅、病毒和细菌的传播、气候变化以及空气污染等",
+              "possibility": "约90%"
+            }
+          },
+          "relationship": {
+            "identity": 705442,
+            "start": 2,
+            "end": 122725,
+            "type": "department_is",
+            "properties": {
+              "name": "类型"
+            }
+          },
+          "end": {
+            "identity": 122725,
+            "labels": [
+              "Department"
+            ],
+            "properties": {
+              "name": "呼吸内科"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

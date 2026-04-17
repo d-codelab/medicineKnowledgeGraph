@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zuel.medicineknowledge.mapper.ArticlesMapper">
+
+    <resultMap id="BaseResultMap" type="org.zuel.medicineknowledge.model.domain.Articles">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="picture" column="picture" jdbcType="VARCHAR"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="authorId" column="author_id" jdbcType="BIGINT"/>
+        <result property="countv" column="countv" jdbcType="INTEGER"/>
+            <result property="publishedAt" column="published_at" jdbcType="TIMESTAMP"/>
+            <result property="updatedAt" column="updated_at" jdbcType="TIMESTAMP"/>
+            <result property="categoryId" column="category_id" jdbcType="INTEGER"/>
+            <result property="isDelete" column="is_delete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,title,content,
+        author_id,published_at,updated_at,
+        category_id,is_delete,picture,countv
+    </sql>
+</mapper>

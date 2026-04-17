@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<h2>Login</h2>
+<form id="loginForm" onsubmit="submitForm(event)">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="userPassword">Password:</label><br>
+    <input type="password" id="userPassword" name="userPassword"><br><br>
+    <input type="submit" value="Login">
+</form>
+
+<script>
+    function submitForm(event) {
+        event.preventDefault(); // 阻止表单默认提交行为
+
+        const username = document.getElementById('username').value;
+        const userPassword = document.getElementById('userPassword').value;
+
+        const formData = {
+            username: username,
+            userPassword: userPassword
+        };
+
+        fetch('http://localhost:8100/api/user/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Login successful:', data);
+                // 登录成功后重定向到/api/doc.html页面
+                window.location.href = 'main.html';
+                // 在此处处理登录成功的逻辑，例如重定向到其他页面
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // 在此处处理登录失败的逻辑，例如显示错误信息给用户
+            });
+    }
+</script>
+</body>
+</html>
